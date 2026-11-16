@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Build a community to run projects, events, and other activities with GathSession.">
+    <title>GathSession | Build your community</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="home" class="m-0 min-h-screen overflow-x-clip bg-canvas font-sans text-base leading-normal text-white">
+    <header class="site-header page-width relative flex flex-wrap items-center justify-between gap-x-4 gap-y-3 py-5">
+      <a class="brand flex min-h-11 items-center hover:opacity-80" href="#home" aria-label="GathSession home">
+        <img src="assets/gathsession.svg" width="235" height="45" alt="GathSession.">
+      </a>
+
+      <details class="site-menu">
+        <summary class="menu-toggle flex min-h-11 cursor-pointer items-center rounded-lg border border-muted px-[.85rem] py-[.4rem] hover:border-highlight hover:text-highlight">Menu</summary>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list relative flex list-none flex-wrap gap-x-5 gap-y-1 md:gap-x-6">
+            <li><a class="nav-item" href="#home">Home</a></li>
+            <li><span class="nav-target" id="features" aria-hidden="true"></span><a class="nav-item" href="#features">Features</a></li>
+            <li><span class="nav-target" id="blog" aria-hidden="true"></span><a class="nav-item" href="#blog">Blog</a></li>
+            <li><span class="nav-target" id="contact" aria-hidden="true"></span><a class="nav-item" href="#contact">Contact</a></li>
+            <li><span class="nav-target" id="about-us" aria-hidden="true"></span><a class="nav-item" href="#about-us">About Us</a></li>
+          </ul>
+        </nav>
+      </details>
+    </header>
+
+    <main class="hero page-width grid gap-10 pb-12 pt-5 md:pt-10 lg:grid-cols-2">
+      <section class="hero-copy" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="font-serif font-bold leading-[1.2625]">Build your best community starting from here.</h1>
+        <p class="mt-[1.125rem] max-w-[42ch] leading-[1.6667] text-white/50">Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way</p>
+        <div class="hero-actions mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+          <button class="primary-action min-h-11 min-w-36 rounded-2xl rounded-bl-none bg-accent px-4 py-2 hover:bg-[#ae1c51]" type="button" aria-disabled="true">Get Started</button>
+          <button class="learn-action inline-flex min-h-11 items-center gap-1.5 font-semibold underline underline-offset-[.16em] hover:text-highlight" type="button" aria-disabled="true">
+            Learn More
+            <img class="w-8" src="assets/arrow.svg" width="40" height="40" alt="">
+          </button>
+        </div>
+      </section>
+
+      <div class="collage relative isolate mx-auto w-full max-w-[39rem] lg:max-w-none lg:self-start" aria-hidden="true">
+        <div class="collage-arcs"></div>
+        <div class="portrait portrait-beanie"><img src="assets/beanie.png" width="4096" height="2732" alt=""></div>
+        <div class="portrait portrait-pink"><img src="assets/pink.png" width="4096" height="2732" alt=""></div>
+        <div class="portrait portrait-sun"><img src="assets/sun.png" width="4096" height="2731" alt=""></div>
+        <div class="portrait portrait-glasses"><img src="assets/glasses.png" width="4096" height="4096" alt=""></div>
+        <div class="portrait portrait-smile"><img src="assets/smile.png" width="4096" height="2732" alt=""></div>
+      </div>
+
+      <ul class="benefits relative flex list-none flex-wrap gap-x-6 gap-y-4 text-sm font-semibold leading-normal lg:grid" aria-label="Community features">
+        <li class="flex items-center gap-2.5">
+          <span class="benefit-icon grid size-12 flex-none place-items-center rounded-xl bg-white/[.12]"><img class="w-[62.5%]" src="assets/comments.svg" width="40" height="40" alt=""></span>
+          <span>Build<br>Community</span>
+        </li>
+        <li class="flex items-center gap-2.5">
+          <span class="benefit-icon grid size-12 flex-none place-items-center rounded-xl bg-white/[.12]"><img class="w-[62.5%]" src="assets/calendar.svg" width="40" height="40" alt=""></span>
+          <span>Share<br>Events</span>
+        </li>
+        <li class="flex items-center gap-2.5">
+          <span class="benefit-icon grid size-12 flex-none place-items-center rounded-xl bg-white/[.12]"><img class="w-[62.5%]" src="assets/post.svg" width="40" height="40" alt=""></span>
+          <span>Get<br>Information</span>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
